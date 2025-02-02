@@ -39,7 +39,6 @@ Created something awesome for your fork of the portfolio and want to share it? F
 ✔️ Achievements And Certifications 🏆\
 ✔️ Blogs\
 ✔️ Talks\
-✔️ Podcast\
 ✔️ Contact me\
 ✔️ Twitter Timeline\
 ✔️ GitHub Profile

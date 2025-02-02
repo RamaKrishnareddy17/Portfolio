@@ -108,7 +108,8 @@ if (MEDIUM_USERNAME !== undefined) {
 
     console.log(`statusCode: ${res.statusCode}`);
     if (res.statusCode !== 200) {
-      throw new Error(ERR.requestMediumFailed);
+      console.error(`Failed to fetch Medium data: ${res.statusCode}`);
+      throw new Error(ERR.requestFailedMedium);
     }
 
     res.on("data", d => {
@@ -123,6 +124,7 @@ if (MEDIUM_USERNAME !== undefined) {
   });
 
   req.on("error", error => {
+    console.error(`Request error: ${error.message}`);
     throw error;
   });
 
