@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 experienced in building scalable Web and AI-powered applications using Python, JavaScript, React.js, and Node.js."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1hyV6MktlGNPCrTQOyokpuyXsRBtgasB6/view?usp=drivesdk", // Set to empty to hide the button
+    "./assets/RESUME.pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
