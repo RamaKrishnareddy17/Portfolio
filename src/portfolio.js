@@ -25,8 +25,7 @@ const greeting = {
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 experienced in building scalable Web and AI-powered applications using Python, JavaScript, React.js, and Node.js."
   ),
-  resumeLink:
-    "./assets/RESUME.pdf", // Set to empty to hide the button
+  resumeLink: "./assets/RESUME.pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -45,7 +44,8 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "Turning Tech into Impact",
-  subTitle: "PASSIONATE FULL STACK DEVELOPER EXPLORING AI AND CLOUD TECHNOLOGIES",
+  subTitle:
+    "PASSIONATE FULL STACK DEVELOPER EXPLORING AI AND CLOUD TECHNOLOGIES",
   skills: [
     emoji(
       "⚡ Develop and optimize scalable APIs and backend systems using Python, Django, Flask, and Node.js"
@@ -57,12 +57,12 @@ const skillsSection = {
       "⚡ Deploy cloud-based solutions with AWS, Azure, and Google Cloud, ensuring high performance and scalability"
     )
   ],
-display: true, // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 
-/* Make Sure to include correct Font Awesome Classname to view your icon
+  /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-softwareSkills: [
+  softwareSkills: [
     {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
@@ -121,7 +121,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "UNIVERSITY OF SOUTH FLORIDA",
-      logo: require("./assets/images/USFLogo.jpeg"), 
+      logo: require("./assets/images/USFLogo.jpeg"),
       subHeader: "Master of Science in Computer Science",
       duration: "August 2023 - May 2025",
       desc: "Collaborated on interdisciplinary research, focusing on Generative AI, automation, and system optimization.",
@@ -137,7 +137,9 @@ const educationInfo = {
       logo: require("./assets/images/BIHERLogo.png"),
       subHeader: "Bachelor of Science in Computer Science",
       desc: "Gained hands-on experience in Software Engineering, Web Security, and Database Management.",
-      descBullets: ["Developed multiple projects utilizing Python, and JavaScript frameworks."]
+      descBullets: [
+        "Developed multiple projects utilizing Python, and JavaScript frameworks."
+      ]
     }
   ]
 };
@@ -169,12 +171,12 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      "role": "AI Software Engineer",
-      "company": "SuperINTRO",
-      "companylogo": require("./assets/images/SuperINTROLogo.png"),
-      "date": "Nov 2023 – Present",
-      "desc": "Contributing to the development of AI-powered Social Agents for networking by designing scalable APIs, integrating advanced AI models, and optimizing backend systems for performance and reliability.",
-      "descBullets": [
+      role: "AI Software Engineer",
+      company: "SuperINTRO",
+      companylogo: require("./assets/images/SuperINTROLogo.png"),
+      date: "Nov 2023 – Present",
+      desc: "Contributing to the development of AI-powered Social Agents for networking by designing scalable APIs, integrating advanced AI models, and optimizing backend systems for performance and reliability.",
+      descBullets: [
         "Designed and implemented scalable APIs using Python, Django Rest Framework, and Flask.",
         "Integrated Large Language Models (LLMs) and OpenAI technologies for intelligent automation.",
         "Optimized backend systems using MongoDB, Firebase, and Node.js to enhance performance.",
@@ -184,18 +186,18 @@ const workExperiences = {
       ]
     },
     {
-      "role": "Junior Software Engineer",
-      "company": "Sutherland Global Services",
-      "companylogo": require("./assets/images/SUTHERLANDLogo.png"),
-      "date": "March 2022 – Sep 2022",
-      "desc": "Developed and maintained scalable backend applications using Python, ensuring seamless system integration and performance.",
-      "descBullets": [
+      role: "Junior Software Engineer",
+      company: "Sutherland Global Services",
+      companylogo: require("./assets/images/SUTHERLANDLogo.png"),
+      date: "March 2022 – Sep 2022",
+      desc: "Developed and maintained scalable backend applications using Python, ensuring seamless system integration and performance.",
+      descBullets: [
         "Collaborated with cross-functional teams to design and implement efficient backend solutions.",
         "Utilized Node.js and TypeScript for server-side development and API integration.",
         "Leveraged Next.js for optimized web applications and Docker for containerized deployments.",
         "Enhanced application scalability and performance by following modern development practices."
       ]
-    },    
+    },
     {
       role: "Junior Software Engineer",
       company: "Shiash Info solutions Private Limited",
@@ -205,9 +207,9 @@ const workExperiences = {
       descBullets: [
         "Collaborated closely with designers and backend developers to build visually appealing and functional web applications.",
         "Optimized web performance and accessibility to enhance compatibility across various devices and browsers.",
-        "Leveraged Microsoft SQL Server for efficient data management and implemented best practices in front-end development using HTML, CSS, and JavaScript." ]
+        "Leveraged Microsoft SQL Server for efficient data management and implemented best practices in front-end development using HTML, CSS, and JavaScript."
+      ]
     }
-    
   ]
 };
 
@@ -228,8 +230,10 @@ const bigProjects = {
     {
       image: require("./assets/images/SuperINTROLogo.png"),
       projectName: "SuperINTRO",
-      projectDesc: ["I will be instrumental in developing scalable, robust APIs and efficient backend systems using technologies like NoSQL databases (MongoDB, Firebase), Express.js, Next.js, Python, and frameworks such as Django Rest and Flask.",
-      "I will also join an ambitious project to democratize Social AI agents for networking."],
+      projectDesc: [
+        "I will be instrumental in developing scalable, robust APIs and efficient backend systems using technologies like NoSQL databases (MongoDB, Firebase), Express.js, Next.js, Python, and frameworks such as Django Rest and Flask.",
+        "I will also join an ambitious project to democratize Social AI agents for networking."
+      ],
       footerLink: [
         {
           name: "Visit Website",
@@ -241,9 +245,11 @@ const bigProjects = {
     {
       image: require("./assets/images/SHIASHLogo.png"),
       projectName: "Shiash Info Solutions",
-      projectDesc: ["Developed and maintained dynamic web applications for Shiash Info Solutions, focusing on web development, e-commerce solutions, and blog designing.",
-      "Worked closely with designers and backend developers to build visually appealing and functional web applications.",
-      "Optimized website performance, ensuring seamless user experience and efficient client communication."],
+      projectDesc: [
+        "Developed and maintained dynamic web applications for Shiash Info Solutions, focusing on web development, e-commerce solutions, and blog designing.",
+        "Worked closely with designers and backend developers to build visually appealing and functional web applications.",
+        "Optimized website performance, ensuring seamless user experience and efficient client communication."
+      ],
       footerLink: [
         {
           name: "Visit Website",
@@ -263,7 +269,7 @@ const achievementSection = {
   subtitle:
     "Achievements, Certifications, Badge and Some Cool Stuff that I have done !",
 
-  achievementsCards: [ 
+  achievementsCards: [
     {
       title: "Google Cloud Skills Boost",
       subtitle:
@@ -274,7 +280,7 @@ const achievementSection = {
         {
           name: "Certification",
           url: "https://www.cloudskillsboost.google/public_profiles/04440955-4785-459a-a308-76f9cb642752/badges/12301194?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share"
-        },
+        }
       ]
     },
     {
@@ -287,7 +293,7 @@ const achievementSection = {
         {
           name: "Certification",
           url: "https://www.cloudskillsboost.google/public_profiles/04440955-4785-459a-a308-76f9cb642752/badges/12268877?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share"
-        },
+        }
       ]
     },
     {
@@ -300,20 +306,19 @@ const achievementSection = {
         {
           name: "Certification",
           url: "https://www.linkedin.com/learning/certificates/d4a69b65ba316ac33f297574162a45e6a4355235ae5a7f0445d773e83eaa4da0?trk=share_certificate&accountId=2343682&u=2343682&success=true&authUUID=qyo1tgeUTFuP%2FYUfDqw2rw%3D%3D"
-        },
+        }
       ]
     },
     {
       title: "Artificial Intelligence Foundations: Machine Learning",
-      subtitle:
-        "Empowering Intelligent Systems with Data-Driven Insights",
+      subtitle: "Empowering Intelligent Systems with Data-Driven Insights",
       image: require("./assets/images/AI.jpeg"),
       imageAlt: "AI",
       footerLink: [
         {
           name: "Certification",
           url: "https://www.linkedin.com/learning/certificates/d4a69b65ba316ac33f297574162a45e6a4355235ae5a7f0445d773e83eaa4da0?trk=share_certificate&accountId=2343682&u=2343682&success=true&authUUID=qyo1tgeUTFuP%2FYUfDqw2rw%3D%3D"
-        },
+        }
       ]
     },
     {
@@ -323,12 +328,12 @@ const achievementSection = {
       image: require("./assets/images/DI.jpeg"),
       imageAlt: "DI",
       footerLink: [
-        { 
+        {
           name: "Certification",
           url: "https://www.linkedin.com/learning/certificates/d4a69b65ba316ac33f297574162a45e6a4355235ae5a7f0445d773e83eaa4da0?trk=share_certificate&accountId=2343682&u=2343682&success=true&authUUID=qyo1tgeUTFuP%2FYUfDqw2rw%3D%3D"
-        },
+        }
       ]
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
