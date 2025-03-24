@@ -75,6 +75,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
+    
     {
       skillName: "reactjs",
       fontAwesomeClassname: "fab fa-react"
