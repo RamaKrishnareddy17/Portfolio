@@ -23,9 +23,9 @@ const greeting = {
   username: "Ramakrishna",
   title: "Hi all, I'm Ram",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 experienced in building scalable Web and AI-powered applications using Python, JavaScript, React.js, and Node.js."
+    "A results-driven Full Stack Developer and Data Scientist 🚀 experienced in designing and deploying scalable web and AI-powered applications using Python, JavaScript, Flask, Django, React.js, and Node.js. Proficient in integrating Large Language Models (LLMs), LangChain, and cloud platforms such as AWS, Azure, and GCP to deliver intelligent, high-performance solutions."
   ),
-  resumeLink: "./assets/RESUME.pdf", // Set to empty to hide the button
+  resumeLink: "./containers/greeting/resume.pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -34,7 +34,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/RamaKrishnareddy17",
   linkedin: "https://www.linkedin.com/in/ramakrishna-reddy-vennam-7215a1222/",
-  gmail: "vennamr43@gmail.com",
+  gmail: "ramakrishna.r@careernb.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -45,8 +45,11 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "Turning Tech into Impact",
   subTitle:
-    "PASSIONATE FULL STACK DEVELOPER EXPLORING AI AND CLOUD TECHNOLOGIES",
+    "Passionate Data Scientist | Bridging AI, Full Stack Development, and Cloud Solutions",
   skills: [
+    emoji(
+      "⚡ Developed and deployed AI-powered financial solutions at Charles Schwab, integrating LLaMA-based LLMs, Flask APIs, and AWS services to enhance fraud detection, risk analysis, and real-time decision support."
+    ),
     emoji(
       "⚡ Develop and optimize scalable APIs and backend systems using Python, Django, Flask, and Node.js"
     ),
@@ -63,6 +66,10 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
+    {
+      skillName: "AI/ML",
+      fontAwesomeClassname: "fa fa-laptop"
+    },
     {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
@@ -122,7 +129,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "UNIVERSITY OF SOUTH FLORIDA",
-      logo: require("./assets/images/USFLogo.jpeg"),
+      logo: require("./assets/images/USFLogo.jpg"),
       subHeader: "Master of Science in Computer Science",
       duration: "August 2023 - May 2025",
       desc: "Collaborated on interdisciplinary research, focusing on Generative AI, automation, and system optimization.",
@@ -151,8 +158,12 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
+    Stack: "AI/ML", 
+      progressPercentage: "90%"
+   },
+    {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "88%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
@@ -172,43 +183,31 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "AI Software Engineer",
-      company: "SuperINTRO",
-      companylogo: require("./assets/images/SuperINTROLogo.png"),
-      date: "Nov 2023 – Present",
-      desc: "Contributing to the development of AI-powered Social Agents for networking by designing scalable APIs, integrating advanced AI models, and optimizing backend systems for performance and reliability.",
+      role: "Data Scientist",
+      company: "Charles Schwab",
+      companylogo: require("./assets/images/CharlesSchwabLogo.png"),
+      date: "May 2025 – Present",
+      desc: "Developed and deployed AI-powered financial solutions, integrating LLaMA-based LLMs, Flask APIs, and AWS services to enhance fraud detection, risk analysis, and real-time decision support.", 
       descBullets: [
-        "Designed and implemented scalable APIs using Python, Django Rest Framework, and Flask.",
-        "Integrated Large Language Models (LLMs) and OpenAI technologies for intelligent automation.",
-        "Optimized backend systems using MongoDB, Firebase, and Node.js to enhance performance.",
+        "Designed and implemented scalable APIs using Python, Flask, and AWS services.",
+        "Integrated Large Language Models (LLMs) for intelligent automation in financial applications.",
+        "Optimized backend systems using AWS Lambda and DynamoDB to enhance performance.",
         "Leveraged LangChain and Retrieval-Augmented Generation (RAG) to improve AI-driven decision-making.",
-        "Deployed AI-powered solutions on Google Cloud Platform (GCP) using Docker for scalability.",
         "Collaborated with cross-functional teams to ensure seamless execution and continuous improvement."
       ]
     },
     {
-      role: "Junior Software Engineer",
-      company: "Sutherland Global Services",
-      companylogo: require("./assets/images/SUTHERLANDLogo.png"),
-      date: "March 2022 – Sep 2022",
-      desc: "Developed and maintained scalable backend applications using Python, ensuring seamless system integration and performance.",
+      role: "Data Scientist",
+      company: "Accenture",
+      companylogo: require("./assets/images/AccentureLogo.png"),
+      date: "May 2020 – Jul 2023",
+      desc: "Worked on various projects, including developing and deploying AI-driven applications, optimizing backend systems, and integrating cloud solutions.",
       descBullets: [
-        "Collaborated with cross-functional teams to design and implement efficient backend solutions.",
-        "Utilized Node.js and TypeScript for server-side development and API integration.",
-        "Leveraged Next.js for optimized web applications and Docker for containerized deployments.",
-        "Enhanced application scalability and performance by following modern development practices."
-      ]
-    },
-    {
-      role: "Junior Software Engineer",
-      company: "Shiash Info solutions Private Limited",
-      companylogo: require("./assets/images/SHIASHLogo.png"),
-      date: "May 2021 – Mar 2022",
-      desc: "Developed dynamic and responsive user interfaces using React.js and Next.js, ensuring seamless user experiences.",
-      descBullets: [
-        "Collaborated closely with designers and backend developers to build visually appealing and functional web applications.",
-        "Optimized web performance and accessibility to enhance compatibility across various devices and browsers.",
-        "Leveraged Microsoft SQL Server for efficient data management and implemented best practices in front-end development using HTML, CSS, and JavaScript."
+        "Designed and implemented scalable APIs using Python, Flask, and AWS services.",
+        "Integrated Large Language Models (LLMs) for intelligent automation in financial applications.",
+        "Optimized backend systems using AWS Lambda and DynamoDB to enhance performance.",
+        "Leveraged LangChain and Retrieval-Augmented Generation (RAG) to improve AI-driven decision-making.",
+        "Collaborated with cross-functional teams to ensure seamless execution and continuous improvement."
       ]
     }
   ]
@@ -224,10 +223,42 @@ const openSource = {
 
 // Some big projects you have worked on
 
-const bigProjects = {
+const bigProjects = 
+
+{
   title: "Big Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
+    {
+      image: require("./assets/images/CharlesSchwabLogo.png"),
+      projectName: "Charles Schwab",
+      projectDesc: [
+        "I will contribute to building intelligent, cloud-native applications by integrating advanced machine learning models and large language models (LLMs) into real-time financial and analytical pipelines using tools like LangChain, Python, Flask, and AWS services such as RDS and IAM.",
+        "I will also be involved in pioneering initiatives that merge data science with full-stack engineering to deliver impactful AI-driven solutions in finance and enterprise operations."
+      ],
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.schwab.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/AccentureLogo.png"),
+      projectName: "Accenture",
+      projectDesc: [
+"I played a key role in developing and deploying machine learning solutions for enterprise clients, leveraging Scikit-learn, PyTorch, and NLP techniques to drive insights from complex structured and unstructured data.",
+"I also engineered scalable MLOps pipelines and data workflows using FastAPI, Docker, and Azure Data Factory, accelerating model delivery and enabling real-time analytics across large-scale distributed systems."
+      ],
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.accenture.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
     {
       image: require("./assets/images/SuperINTROLogo.png"),
       projectName: "SuperINTRO",
@@ -243,21 +274,7 @@ const bigProjects = {
         //  you can add extra buttons here.
       ]
     },
-    {
-      image: require("./assets/images/SHIASHLogo.png"),
-      projectName: "Shiash Info Solutions",
-      projectDesc: [
-        "Developed and maintained dynamic web applications for Shiash Info Solutions, focusing on web development, e-commerce solutions, and blog designing.",
-        "Worked closely with designers and backend developers to build visually appealing and functional web applications.",
-        "Optimized website performance, ensuring seamless user experience and efficient client communication."
-      ],
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://shiash.com/"
-        }
-      ]
-    }
+    
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -409,7 +426,7 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+1 6562084865",
-  email_address: "vennamr43@gmail.com"
+  email_address: "ramakrishna.r@careernb.com"
 };
 
 // Twitter Section
