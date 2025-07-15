@@ -23,7 +23,7 @@ const greeting = {
   username: "Ramakrishna",
   title: "Hi all, I'm Ram",
   subTitle: emoji(
-    "A results-driven Full Stack Developer and Data Scientist 🚀 experienced in designing and deploying scalable web and AI-powered applications using Python, JavaScript, Flask, Django, React.js, and Node.js. Proficient in integrating Large Language Models (LLMs), LangChain, and cloud platforms such as AWS, Azure, and GCP to deliver intelligent, high-performance solutions."
+    "ML Engineer | Building LLM-powered apps with Azure OpenAI, RAG, Agents (AutoGen) & AI Search | Python, FastAPI, MLOps | Cloud-Savvy (Azure, AWS, GCP) | Passionate about AI, Full Stack Development, and Cloud Solutions"
   ),
   resumeLink: "./containers/greeting/resume.pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
