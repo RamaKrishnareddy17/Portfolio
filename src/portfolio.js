@@ -34,7 +34,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/RamaKrishnareddy17",
   linkedin: "https://www.linkedin.com/in/ramakrishna-reddy-vennam-7215a1222/",
-  gmail: "ramakrishna.r@careernb.com",
+  gmail: "ramakrishnavennam123@gmail.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
