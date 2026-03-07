@@ -186,7 +186,7 @@ const workExperiences = {
       role: "Data Scientist",
       company: "Charles Schwab",
       companylogo: require("./assets/images/CharlesSchwabLogo.png"),
-      date: "May 2025 – Present",
+      date: "Jan 2025 – Present",
       desc: "Developed and deployed AI-powered financial solutions, integrating LLaMA-based LLMs, Flask APIs, and AWS services to enhance fraud detection, risk analysis, and real-time decision support.", 
       descBullets: [
         "Designed and implemented scalable APIs using Python, Flask, and AWS services.",
@@ -426,7 +426,7 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+1 6562084865",
-  email_address: "ramakrishna.r@careernb.com"
+  email_address: "vennamrama17@gmail.com"
 };
 
 // Twitter Section
