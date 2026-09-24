@@ -34,7 +34,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/RamaKrishnareddy17",
   linkedin: "https://www.linkedin.com/in/ramakrishna-reddy-vennam-7215a1222/",
-  gmail: "ramakrishnavennam123@gmail.com",
+  gmail: "ramavennam2128@gmail.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -186,7 +186,7 @@ const workExperiences = {
       role: "Data Scientist",
       company: "Charles Schwab",
       companylogo: require("./assets/images/CharlesSchwabLogo.png"),
-      date: "Jan 2025 – Present",
+      date: "June 2025 – Present",
       desc: "Developed and deployed AI-powered financial solutions, integrating LLaMA-based LLMs, Flask APIs, and AWS services to enhance fraud detection, risk analysis, and real-time decision support.", 
       descBullets: [
         "Designed and implemented scalable APIs using Python, Flask, and AWS services.",
@@ -198,8 +198,8 @@ const workExperiences = {
     },
     {
       role: "Data Scientist",
-      company: "Accenture",
-      companylogo: require("./assets/images/AccentureLogo.png"),
+      company: "Optum",
+      companylogo: require("./assets/images/OptumLogo.png"),
       date: "May 2020 – Jul 2023",
       desc: "Worked on various projects, including developing and deploying AI-driven applications, optimizing backend systems, and integrating cloud solutions.",
       descBullets: [
@@ -245,8 +245,8 @@ const bigProjects =
       ]
     },
     {
-      image: require("./assets/images/AccentureLogo.png"),
-      projectName: "Accenture",
+      image: require("./assets/images/OptumLogo.png"),
+      projectName: "Optum",
       projectDesc: [
 "I played a key role in developing and deploying machine learning solutions for enterprise clients, leveraging Scikit-learn, PyTorch, and NLP techniques to drive insights from complex structured and unstructured data.",
 "I also engineered scalable MLOps pipelines and data workflows using FastAPI, Docker, and Azure Data Factory, accelerating model delivery and enabling real-time analytics across large-scale distributed systems."
@@ -254,7 +254,7 @@ const bigProjects =
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://www.accenture.com/"
+          url: "https://business.optum.com/en/"
         }
         //  you can add extra buttons here.
       ]
@@ -426,7 +426,7 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+1 6562084865",
-  email_address: "vennamrama17@gmail.com"
+  email_address: "ramavennam2128@gmail.com"
 };
 
 // Twitter Section
